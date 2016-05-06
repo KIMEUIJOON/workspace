@@ -1,0 +1,5 @@
+AuthType Basic
+AuthUserFile /home/.sites/40/site68/web/phpMyAdmin-odiz916jyz/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Enter password"
+Require valid-user

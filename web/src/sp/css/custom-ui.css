@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+/* background */
+.ui-page, .ui-overlay-a {
+  /*background: url(../img/bg.gif);*/
+  background: none;
+  background-color: #FFFFF7;
+}
+
+/*ヘッダーのタイトルの表示幅を広げる*/
+.ui-header .ui-title 
+{
+	/*margin: .6em 30% .8em;*/
+	margin: .6em 25% .8em;
+}
+
+.ui-header .ui-btn-corner-all {
+    border-radius: 7px;
+}
+
+
+/* フリップスイッチを四角にする */
+.ui-slider.ui-btn-corner-all, .ui-slider-switch .ui-btn-corner-all, /* フリップスイッチ */
+.ui-slider-handle.ui-btn-corner-all, /* フリップスイッチ、スライダーのつまみ */
+.ui-slider.ui-btn-corner-all, .ui-slider-bg.ui-btn-corner-all /* フリップスイッチ、スライダーの溝 */ 
+{
+	-moz-border-radius: 0.2em;
+	-webkit-border-radius: 0.2em;
+	border-radius: 0.2em;
+	border-radius: 0.2em;
+}
+
+    /* アイコンのサイズを35×35に変更 */
+    .ui-listview .ui-li-icon {
+      max-height: 35px; 
+      max-width: 35px;
+    }
+    /*.ui-li-static.ui-li-has-icon,  リストの場合 */
+    .ui-li-has-icon .ui-btn-inner a.ui-link-inherit /* リンクリストの場合 */
+    {
+      min-height: 30px;
+      padding-left: 60px;
+      padding-top: 20px;
+    }
+    
+    /*オリジナルアイコン */
+    .ui-icon-campaign {
+      background-image: url("../img/campaign_18.png");
+	  border-radius: 0;
+}
+
+    }
+
+    @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (min--moz-device-pixel-ratio: 1.5), 
+       only screen and (min-resolution: 240dpi) {
+
+      .ui-icon-campaign {
+        background-image: url("../img/campaign_36.png");
+        -webkit-background-size: 18px 18px;
+        -moz-background-size: 18px 18px;
+        background-size: 18px 18px;
+      }
+    }
+
+/* リントをカスタイズ */
+.vlist-nav2 .ui-li .ui-btn-inner a.ui-link-inherit
+{
+	padding:0;
+    padding-right: 40px;
+}
+
+}
+.vlist-nav2 .ui-li-heading {
+    margin: 0;
+}
+
+.vlist-nav2 .ui-li-desc {
+	margin: 0;
+	white-space: normal;
+}
+
+.vlist-nav2 li, .vlist-nav2 .ui-li-static.ui-li{
+ background-color: #fff;
+ padding: 8px;
+}
+
+.vlist-nav2 li h3.ui-li-heading {
+ font-size:14px;
+ border-left: 4px solid #FF0707;
+ margin-bottom: 5px;
+
+ padding-left: 5px;
+}
+.vlist-nav2 li p {
+ font-size:12px;
+ line-height:1.5;
+}
+
+.ui-shadow {
+    box-shadow: none;
+}

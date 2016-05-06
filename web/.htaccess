@@ -1,0 +1,18 @@
+php_flag magic_quotes_gpc off
+php_flag register_globals off
+php_flag output_buffering off
+php_value default_charset none
+php_value mbstring.language Japanese
+php_flag mbstring.encoding_translation off
+php_value mbstring.http_input pass
+php_value mbstring.http_output pass
+php_value mbstring.internal_encoding UTF-8
+php_value mbstring.substitute_character none
+
+
+php_value max_execution_time 600
+php_value memory_limit 512M
+
+RewriteEngine on
+RewriteCond $1 !^(index\.php|support\.html|error|src|src2|assets|phpMyAdmin-odiz916jyz|robots\.txt)
+RewriteRule ^(.*)$ /index.php/$1 [L]
