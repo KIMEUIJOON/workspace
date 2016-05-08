@@ -13,20 +13,30 @@
       </label>
       <ul class="list-unstyled center">
         <li>
-        <a href=""><img class="img-responsive" src="http:\\localhost\src\re\img\pc\sideLogo_docomo.png"></a>
+          <img class="img-responsive" name="carrier" value="side_navi_docomo" check="off"
+          src="http:\\localhost\src\re\img\pc\sideLogo_docomo.png" onclick="checkbox_select(this);">
         </li>
         <li>
-        <a href=""><img class="img-responsive" src="http:\\localhost\src\re\img\pc\sideLogo_au.png"></a>
+          <img class="img-responsive" name="carrier" value="side_navi_au" check="off"
+          src="http:\\localhost\src\re\img\pc\sideLogo_au.png" onclick="checkbox_select(this);">
         </li>
         <li>
-        <a href=""><img class="img-responsive" src="http:\\localhost\src\re\img\pc\sideLogo_softbank.png"></a>
+          <img class="img-responsive" name="carrier" value="side_navi_softbank" check="off"
+          src="http:\\localhost\src\re\img\pc\sideLogo_softbank.png" onclick="checkbox_select(this);">
         </li>
         <li>
-        <a href=""><img class="img-responsive" src="http:\\localhost\src\re\img\pc\sideLogo_ymobile.png"></a>
+          <img class="img-responsive" name="carrier" value="side_navi_ymobile" check="off"
+          src="http:\\localhost\src\re\img\pc\sideLogo_ymobile.png" onclick="checkbox_select(this);">
         </li>
       </ul>
     </div>
     </li>
+      <div class="hiddenCheckbox">
+      <input type="checkbox" name="carrier" value="docomo" id="side_navi_docomo">
+      <input type="checkbox" name="carrier" value="au" id="side_navi_au">
+      <input type="checkbox" name="carrier" value="softbank" id="side_navi_softbank">
+      <input type="checkbox" name="carrier" value="ymobile" id="side_navi_ymobile">
+      </div>
     <!--side_navi_キャリアで検索 end-->
     <!--side_navi_地域で検索 start-->
     <li class="list-group-item">
@@ -34,13 +44,13 @@
       <label>
       <b>地域で検索</b>
       </label>
-      <div class="row">
+      <div class="row fontSize_navi">
         <div class="col-md-6">
           <ul class="list-unstyled">
             <li><a href="">北海道</a></li>
             <li><a href="">東北</a></li>
             <li><a href="">関東</a></li>
-            <li><a href="">中部・北陸</a></li>
+            <li><a href="">中部<br>北陸</a></li>
           </ul>
         </div>
         <div class="col-md-6">
@@ -48,7 +58,7 @@
             <li><a href="">近畿</a></li>
             <li><a href="">中国</a></li>
             <li><a href="">四国</a></li>
-            <li><a href="">九州・沖縄</a></li>
+            <li><a href="">九州<br>沖縄</a></li>
           </ul>
         </div>
       </div>
@@ -63,7 +73,7 @@
         </label><br>
         <div class="row">
           <div class="side_navi_checkbox">
-            <div class="col-lg-12 col-md-12 col-sm-12 fontSize_navi" style="padding-right:5px;">
+            <div class="col-lg-12 col-md-12 col-sm-12 fontSize_navi_checkbox" style="padding-right:5px;">
               <ul class="list-unstyled">
                 <li><input type="checkbox" name="other_choice" value="parking">駐車場あり</li>
                 <li><input type="checkbox" name="other_choice" value="kid-room">キッズルーム</li>

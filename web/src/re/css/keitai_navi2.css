@@ -18,11 +18,15 @@
 	.centered {
 		width:95% !important;/*真ん中の領域　start*/
 	}
+	.fontSize{
+ 	font-size: 9pt !important;
+ }
+ .fontSize_navi{
+	 font-size: 9pt !important;
+ }
 }
 
- .fontSize{
-	font-size: 9pt !important;
-}
+
 @media (min-width:768px) and (max-width:991px) {
 	.sitemap {
 		font-size:10px !important;
@@ -30,13 +34,33 @@
 	.Copyright {
 		font-size:10px !important;
 	}
-}
 	.fontSize{
- font-size: 8pt !important;
+	 font-size: 12pt !important;
+	}
+	.fontSize_navi{
+		font-size: 9pt !important;
+	}
+	.fontSize_navi_checkbox{
+		font-size: 7pt !important;
+	}
+}
+
+.fontSize{
+ font-size: 12pt;
+}
+.fontSize_navi{
+	font-size: 11pt;
+}
+.fontSize_navi_checkbox{
+	font-size: 11pt;
+}
+b{
+	font-size: 13pt;
 }
 .hiddenCheckbox{
-  display: none;
+	display: none;
 }
+
 /*デバイスごとく見やすく調整用　end*/
 /*一般設定　start*/
 .area_top {
@@ -44,7 +68,6 @@
 	width:100%;
 	height:10%;
 	background:#c1021b;
-	vertical-align: middle;
 }
 .area_body {
 	width:100%;
@@ -69,7 +92,7 @@
 .centered {
 	position:relative;
 	display:inline-block;
-	width:68%; /*真ん中の領域　start*/
+	width:65%; /*真ん中の領域　start*/
 }
 		/*真ん中に整える　start*/
 .img_left {
@@ -118,14 +141,14 @@
 	height:15%;
 	background:#dfdfd0;
 	color:#555555;
-	font-size:10px;
+	font-size:10px !important;
 }
 .Copyright {
 	width:100%;
 	height:5%;
 	padding-top:10px;
 	background:#c1021b;
-	font-size:120x;
+	font-size:12px !important ;
 	color:white;
 }
 .left {
@@ -192,12 +215,7 @@
 .checkboxPadding{
 padding-right: 5px;
 }
-.fontSize{
- font-size: 12pt !important;
-}
-.fontSize_navi{
-	font-size: 9pt !important;
-}
+
 .bottom_mobileSearchTitle{
 	background:#79796a;
 	text-align: left;
@@ -236,6 +254,22 @@ ul#bottom, ul#bottom > li{
 	margin-right: auto;
 }
 
+li{
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+@font-face{
+	font-family:'koruri';
+	src:url('/src/re/font/Koruri-Regular.woff');
+}
+@font-face{
+	font-family:"koruri";
+	src:url('/src/re/font/Koruri-Regular.eot');
+}
+body{
+	font-family:'koruri' !important;
+}
 
 /*一般設定　end*/
 /*デバイスごとく表示、隠す start*/

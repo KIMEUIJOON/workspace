@@ -6,8 +6,8 @@
 						<div class="container">
 							<section>
 							<div class="col-lg-2 col-md-2 col-sm-2">
-								<b>キャリア別検索</b>
-								<hr>
+								<strong>キャリア別検索</strong>
+								<HR width="80%" align="right" style="color:red; background-color:red; height:1px; border:none" />
 								<ul class="list-unstyled">
 									<li>docomo</li>
 									<li>au</li>
@@ -16,8 +16,7 @@
 								</ul>
 							</div>
 							<div class="col-lg-3 col-md-3 col-sm-3">
-								<b>地域別検索</b>
-								<hr>
+								<strong>地域別検索<hr /></strong>
 								<div class="row">
 									<div class="col-lg-6 col-md-6 col-sm-6">
 										<ul class="list-unstyled">
@@ -38,8 +37,8 @@
 								</div>
 							</div>
 							<div class="col-lg-3 col-md-3 col-sm-3">
-								<b>特集一覧</b>
-								<hr>
+								<strong>特集一覧								<hr /></strong>
+
 								<ul class="list-unstyled">
 									<li>スマホ教室の開催中のショップ</li>
 									<li>21時以降も営業のお店</li>
@@ -76,21 +75,20 @@
 				<div class="bottom_mobileSearchContent">
 					<div class="text-center">
 				    <div class="row">
-				      <img class="img-responsive col-lg-3 col-md-3 col-sm-3 col-xs-3" name="carrier" value="docomo" check="off"
-				      src="http:\\localhost\src\re\img\pc\sideLogo_docomo.png" onclick="carrier_select(this);">
-				      <img class="img-responsive col-lg-3 col-md-3 col-sm-3 col-xs-3" name="carrier" value="au" check="off"
-				      src="http:\\localhost\src\re\img\pc\sideLogo_au.png" onclick="carrier_select(this);">
-				      <img class="img-responsive col-lg-3 col-md-3 col-sm-3 col-xs-3" name="carrier" value="softbank" check="off"
-				      src="http:\\localhost\src\re\img\pc\sideLogo_softbank.png" onclick="carrier_select(this);">
-				      <img class="img-responsive col-lg-3 col-md-3 col-sm-3 col-xs-3" name="carrier" value="ymobile" check="off"
-				      src="http:\\localhost\src\re\img\pc\sideLogo_ymobile.png" onclick="carrier_select(this);">
-				    </ul>
+				      <img class="img-responsive col-lg-3 col-md-3 col-sm-3 col-xs-3" name="carrier" value="bottom_docomo" check="off"
+				      src="http:\\localhost\src\re\img\pc\sideLogo_docomo.png" onclick="checkbox_select(this);">
+				      <img class="img-responsive col-lg-3 col-md-3 col-sm-3 col-xs-3" name="carrier" value="bottom_au" check="off"
+				      src="http:\\localhost\src\re\img\pc\sideLogo_au.png" onclick="checkbox_select(this);">
+				      <img class="img-responsive col-lg-3 col-md-3 col-sm-3 col-xs-3" name="carrier" value="bottom_softbank" check="off"
+				      src="http:\\localhost\src\re\img\pc\sideLogo_softbank.png" onclick="checkbox_select(this);">
+				      <img class="img-responsive col-lg-3 col-md-3 col-sm-3 col-xs-3" name="carrier" value="bottom_ymobile" check="off"
+				      src="http:\\localhost\src\re\img\pc\sideLogo_ymobile.png" onclick="checkbox_select(this);">
 				  </div>
 				    <div class="hiddenCheckbox">
-				    <input type="checkbox" name="carrier" value="docomo" id="searchPanel_docomo">
-				    <input type="checkbox" name="carrier" value="au" id="searchPanel_au">
-				    <input type="checkbox" name="carrier" value="softbank" id="searchPanel_softbank">
-				    <input type="checkbox" name="carrier" value="ymobile" id="searchPanel_ymobile">
+				    <input type="checkbox" name="carrier" value="docomo" id="bottom_docomo">
+				    <input type="checkbox" name="carrier" value="au" id="bottom_au">
+				    <input type="checkbox" name="carrier" value="softbank" id="bottom_softbank">
+				    <input type="checkbox" name="carrier" value="ymobile" id="bottom_ymobile">
 				    </div>
 				  </ul>
         </div>
@@ -100,7 +98,7 @@
 					 地域から探す
 				</div>
 				<div class="bottom_mobileSearchContent">
-					
+
 				</div>
 				<div class="col-xs-12 bottom_mobileSearchSmalltitle center">
 					<div class="col-xs-10">

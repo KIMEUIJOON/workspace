@@ -13,7 +13,7 @@ $(document).ready(function(){
 
 });
 
-function carrier_select(imgObj){
+function checkbox_select(imgObj){
   var imgSrc = $(imgObj).attr("src");
   var value = $(imgObj).attr("value");
   result = $(imgObj).attr("check");
@@ -31,36 +31,12 @@ function carrier_select(imgObj){
 };
 
  function hiddenCheckbox_check(value){
-    switch (value) {
-      case "docomo":
-      $("#searchPanel_docomo").prop("checked", true);
-        break;
-      case "au":
-      $("#searchPanel_au").prop("checked", true);
-        break;
-        case "softbank":
-      $("#searchPanel_softbank").prop("checked", true);
-        break;
-      case "ymobile":
-      $("#searchPanel_ymobile").prop("checked", true);
-        break;
-    }
-};
+      $("#"+value).prop("checked", true);
+      console.log("check : "+value);
+    };
  function hiddenCheckbox_uncheck(value){
-   switch (value) {
-     case "docomo":
-     $("#searchPanel_docomo").prop("checked", false);
-       break;
-     case "au":
-     $("#searchPanel_au").prop("checked", false);
-       break;
-       case "softbank":
-     $("#searchPanel_softbank").prop("checked", false);
-       break;
-     case "ymobile":
-     $("#searchPanel_ymobile").prop("checked", false);
-       break;
-   }
- }
+      $("#"+value).prop("checked", false);
+      console.log("uncheck : "+value);
+   };
  </script>
 </head>

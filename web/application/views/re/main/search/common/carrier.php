@@ -9,14 +9,14 @@
   </label><br>
   <div class="text-center">
     <div class="row">
-      <img class="img-responsive col-lg-3 col-md-3 col-sm-3 col-xs-3" name="carrier" value="docomo" check="off"
-      src="http:\\localhost\src\re\img\pc\logo_docomo.png" onclick="carrier_select(this);">
-      <img class="img-responsive col-lg-3 col-md-3 col-sm-3 col-xs-3" name="carrier" value="au" check="off"
-      src="http:\\localhost\src\re\img\pc\logo_au.png" onclick="carrier_select(this);">
-      <img class="img-responsive col-lg-3 col-md-3 col-sm-3 col-xs-3" name="carrier" value="softbank" check="off"
-      src="http:\\localhost\src\re\img\pc\logo_softbank.png" onclick="carrier_select(this);">
-      <img class="img-responsive col-lg-3 col-md-3 col-sm-3 col-xs-3" name="carrier" value="ymobile" check="off"
-      src="http:\\localhost\src\re\img\pc\logo_ymobile.png" onclick="carrier_select(this);">
+      <img class="img-responsive col-lg-3 col-md-3 col-sm-3 col-xs-3" name="carrier" value="searchPanel_docomo" check="off"
+      src="http:\\localhost\src\re\img\pc\logo_docomo.png" onclick="checkbox_select(this);">
+      <img class="img-responsive col-lg-3 col-md-3 col-sm-3 col-xs-3" name="carrier" value="searchPanel_au" check="off"
+      src="http:\\localhost\src\re\img\pc\logo_au.png" onclick="checkbox_select(this);">
+      <img class="img-responsive col-lg-3 col-md-3 col-sm-3 col-xs-3" name="carrier" value="searchPanel_softbank" check="off"
+      src="http:\\localhost\src\re\img\pc\logo_softbank.png" onclick="checkbox_select(this);">
+      <img class="img-responsive col-lg-3 col-md-3 col-sm-3 col-xs-3" name="carrier" value="searchPanel_ymobile" check="off"
+      src="http:\\localhost\src\re\img\pc\logo_ymobile.png" onclick="checkbox_select(this);">
     </ul>
   </div>
     <div class="hiddenCheckbox">
