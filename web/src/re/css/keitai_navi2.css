@@ -59,9 +59,8 @@
 		font-size: 7pt;
 	}
 }
-
 .fontSize{
- font-size: 12pt;
+ font-size: 12.5pt;
 }
 .fontSize_navi{
 	font-size: 10pt;
@@ -299,6 +298,9 @@ ul.sitemap > li{
 ul#searchPanel > li{
 	padding-top: 2%;
 	padding-bottom: 2%;
+}
+.searchPanel_checkbox > div{
+	width: 30%;
 }
 
 @font-face{
