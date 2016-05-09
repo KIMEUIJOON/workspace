@@ -20,7 +20,7 @@
         <!--searchPanel_その他条件を指定 end-->
         <!--searchPanel_上記の条件で検索 start-->
                 <div>
-              <a href=""><img class="img-responsive img-rounded img_right" src="http:\\localhost\src\re\img\pc\button_conditionSearch.png"></a>
+              <a href=""><img class="img-responsive img-rounded img_center" src="http:\\localhost\src\re\img\pc\button_conditionSearch.png"></a>
           </div>
         </div>
         <!--searchPanel_上記の条件で検索 end-->

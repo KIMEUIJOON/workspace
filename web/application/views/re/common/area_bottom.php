@@ -6,43 +6,71 @@
 						<div class="container">
 							<section>
 							<div class="col-lg-2 col-md-2 col-sm-2">
-								<strong>キャリア別検索</strong>
-								<HR width="80%" align="right" style="color:red; background-color:red; height:1px; border:none" />
-								<ul class="list-unstyled">
-									<li>docomo</li>
-									<li>au</li>
-									<li>softbank</li>
-									<li>y!mobile</li>
-								</ul>
+								<table>
+									<tr>
+										<td style="border-bottom:1px solid black">
+									<strong>キャリア別検索</strong>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<ul class="list-unstyled sitemap sitemap">
+												<li>docomo</li>
+												<li>au</li>
+												<li>softbank</li>
+												<li>y!mobile</li>
+											</ul>
+										</td>
+									</tr>
+								</table>
 							</div>
 							<div class="col-lg-3 col-md-3 col-sm-3">
-								<strong>地域別検索<hr /></strong>
-								<div class="row">
-									<div class="col-lg-6 col-md-6 col-sm-6">
-										<ul class="list-unstyled">
-											<li>北海道</li>
-											<li>東北</li>
-											<li>関東</li>
-											<li>中部・北陸</li>
-										</ul>
-									</div>
-									<div class="col-lg-6 col-md-6 col-sm-6">
-										<ul class="list-unstyled">
-											<li>近畿</li>
-											<li>中国</li>
-											<li>四国</li>
-											<li>九州・沖縄</li>
-										</ul>
-									</div>
-								</div>
+								<table>
+									<tr>
+										<td style="border-bottom:1px solid black">
+										<strong>地域別検索</strong>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div class="row">
+												<div class="col-lg-6 col-md-6 col-sm-6">
+													<ul class="list-unstyled sitemap">
+														<li>北海道</li>
+														<li>東北</li>
+														<li>関東</li>
+														<li>中部・北陸</li>
+													</ul>
+												</div>
+												<div class="col-lg-6 col-md-6 col-sm-6">
+													<ul class="list-unstyled sitemap">
+														<li>近畿</li>
+														<li>中国</li>
+														<li>四国</li>
+														<li>九州・沖縄</li>
+													</ul>
+												</div>
+											</div>
+										</td>
+									</tr>
+								</table>
 							</div>
 							<div class="col-lg-3 col-md-3 col-sm-3">
-								<strong>特集一覧								<hr /></strong>
-
-								<ul class="list-unstyled">
-									<li>スマホ教室の開催中のショップ</li>
-									<li>21時以降も営業のお店</li>
-								</ul>
+								<table>
+									<tr>
+										<td style="border-bottom:1px solid black">
+											<strong>特集一覧</strong>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<ul class="list-unstyled sitemap">
+												<li>スマホ教室の開催中のショップ</li>
+												<li>21時以降も営業のお店</li>
+											</ul>
+										</td>
+									</tr>
+								</table>
 							</div>
 							<br>
 							<div class="col-lg-4 col-md-4 col-sm-4">

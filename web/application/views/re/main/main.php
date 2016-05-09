@@ -1,7 +1,7 @@
 <!--main_body start child-->
 <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 left">
   <!--searchPanel start-->
-  <?= $this->load->view('re/main/search/common/main')?>    
+  <?= $this->load->view('re/main/search/common/main')?>
   <!--searchPanel end-->
       <!--AD_section start-->
       <?= $this->load->view('re/main/banner/banner')?>

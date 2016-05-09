@@ -1,5 +1,5 @@
 <!--searchPanel_キャリアから絞り込む start-->
-<img class="show-mobile img-rounded img-responsive img_center" src="http:\\localhost\src\re\img\pc\mobile_button_presentLocation.png">
+<img class="show-mobile img-rounded img-responsive img_center padding" src="http:\\localhost\src\re\img\pc\mobile_button_presentLocation.png">
 <div class="panel panel-default show-mobile">
 </div>
 <label>

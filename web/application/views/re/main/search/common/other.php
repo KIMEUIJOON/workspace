@@ -7,7 +7,7 @@
 <div class="text-inline">
   <div class="row">
     <div class="checkbox hidden-mobile">
-        <ul class="list-unstyled fontSize col-lg-12 col-md-12 col-sm-12 left">
+        <ul class="list-unstyled fontSize col-lg-12 col-md-12 col-sm-12 left" id="searchPanel">
           <li><img name="other_choice" value="other_choice_parking" check="off"
           src="http:\\localhost\src\re\img\pc\button_checkBox2.png" onclick="checkbox_select(this);"> 駐車場あり</li>
           <li><img name="other_choice" value="other_choice_kid-room" check="off"
@@ -25,7 +25,7 @@
         </ul>
     </div>
     <div class="checkbox show-mobile" style="padding-left:10%;">
-        <ul class="list-unstyled fontSize col-xs-6 left">
+        <ul class="list-unstyled fontSize col-xs-6 left" id="searchPanel">
           <li><img name="other_choice" value="other_choice_parking" check="off"
           src="http:\\localhost\src\re\img\pc\button_checkBox2.png" onclick="checkbox_select(this);"> 駐車場あり</li>
           <li><img name="other_choice" value="other_choice_kid-room" check="off"
@@ -35,7 +35,7 @@
           <li><img name="other_choice" value="other_choice_after21" check="off"
           src="http:\\localhost\src\re\img\pc\button_checkBox2.png" onclick="checkbox_select(this);"> 21時以降も営業</li>
           </ul>
-          <ul class="list-unstyled fontSize col-xs-6 left">
+          <ul class="list-unstyled fontSize col-xs-6 left" id="searchPanel">
           <li><img name="other_choice" value="other_choice_barrier-free" check="off"
           src="http:\\localhost\src\re\img\pc\button_checkBox2.png" onclick="checkbox_select(this);"> バリアフリー</li>
           <li><img name="other_choice" value="other_choice_study-smartphone" check="off"
