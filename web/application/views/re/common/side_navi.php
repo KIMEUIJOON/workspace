@@ -47,18 +47,18 @@
       <div class="row fontSize_navi">
         <div class="col-md-6">
           <ul class="list-unstyled">
-            <li><a href="">北海道</a></li>
-            <li><a href="">東北</a></li>
-            <li><a href="">関東</a></li>
-            <li><a href="">中部<br>北陸</a></li>
+            <li><red>北海道</red></li>
+            <li><red>東北</red></li>
+            <li><red>関東</red></li>
+            <li><red>中部<br>北陸</red></li>
           </ul>
         </div>
         <div class="col-md-6">
           <ul class="list-unstyled">
-            <li><a href="">近畿</a></li>
-            <li><a href="">中国</a></li>
-            <li><a href="">四国</a></li>
-            <li><a href="">九州<br>沖縄</a></li>
+            <li><red>近畿</red></li>
+            <li><red>中国</red></li>
+            <li><red>四国</red></li>
+            <li><red>九州<br>沖縄</red></li>
           </ul>
         </div>
       </div>

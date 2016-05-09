@@ -22,8 +22,8 @@
           </div>
           <p class="list-group-item-text review_content_fontsize">
              これはダミー文章です。 これはダミー文章です。 これはダミー文章です。 これはダミー文章です。 これはダミー文章です。 これはダミー文章です。 これはダミー文章です。 これはダミー文章です。 これはダミー文章です。 これはダミー文章です。 これはダミー文章です。 これはダミー文章です。 これはダミー文章です。 これはダミー文章です。 これはダミー文章です。
-            <div class="text-right review_content_fontsize">
-              <a>続きを読む</a>
+            <div class="text-right review_content_fontsize red">
+              <red>続きを読む</red>
             </div>
           </p>
         </div>
@@ -47,8 +47,8 @@
         </div>
         <p class="list-group-item-text review_content_fontsize">
            これはダミー文章です。 これはダミー文章です。 これはダミー文章です。 これはダミー文章です。 これはダミー文章です。 これはダミー文章です。 これはダミー文章です。 これはダミー文章です。 これはダミー文章です。 これはダミー文章です。 これはダミー文章です。 これはダミー文章です。 これはダミー文章です。 これはダミー文章です。 これはダミー文章です。
-          <div class="text-right review_content_fontsize">
-            <a>続きを読む</a>
+          <div class="text-right review_content_fontsize red">
+            <red>続きを読む</red>
           </div>
         </p>
       </div>

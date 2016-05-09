@@ -61,7 +61,7 @@
 }
 
 .fontSize{
- font-size: 13pt;
+ font-size: 12pt;
 }
 .fontSize_navi{
 	font-size: 10pt;
@@ -85,7 +85,9 @@ strong{
 	font-size: 7pt;
 }
 
-
+red{
+	color:#c1021b;
+}
 /*デバイスごとく見やすく調整用　end*/
 /*一般設定　start*/
 .area_top {
@@ -169,7 +171,7 @@ strong{
 	height:15%;
 	background:#dfdfd0;
 	color:#555555;
-	font-size:12px;
+	font-size:11px;
 }
 .Copyright {
 	width:100%;
@@ -290,8 +292,8 @@ ul#bottom, ul#bottom > li{
 	margin-right: auto;
 }
 
-ul#side_navi > li{
-
+ul.sitemap > li{
+	padding-bottom: 2%;
 }
 
 ul#searchPanel > li{
